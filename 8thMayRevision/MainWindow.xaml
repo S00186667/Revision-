@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <ListBox Margin="8,37,0,0" Name="ListBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
+            <ListBoxItem Background="LightCoral" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Content="Coffee"></ListBoxItem>
+            <ListBoxItem Background="LightCyan" Foreground="Black" FontFamily="Georgia" FontSize="14" FontWeight="bold" Content="Tea"></ListBoxItem>
+        </ListBox>
+
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="8,14,0,0" Name="textBox1" VerticalAlignment="Top" Width="127"/>
+        <Button Height="23" Margin="140,14,0,0" Name="button1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="76" Click="button1_click">Add Item</Button>
     </Grid>
+
 </Window>
